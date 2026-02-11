@@ -21,7 +21,6 @@ console.log(typeof null);      // object
 // undefined
 console.log(typeof undefined); // undefined
 
-// FALSE en mayúsculas no existe por defecto, lo definimos
 const FALSE = false;
 console.log(typeof FALSE);     // boolean
 
@@ -29,7 +28,7 @@ console.log("=== Ejemplos extra ===");
 
 // Más números
 console.log(typeof 3.14);      // number
-console.log(typeof NaN);       // number (sí, aunque no lo parezca)
+console.log(typeof NaN);       // number (aunque no lo parezca)
 
 // Strings
 console.log(typeof "123");     // string
